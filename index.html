@@ -1,49 +1,76 @@
 <html>
+
   <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="site.css" rel="stylesheet">
-<style>
-
-</style>
-
   </head>
 
   <body>
-    <!--<div id="drag-1" class="draggable">
-  <p> You can drag one element </p>
-</div>
-<div id="drag-2" class="draggable">
-  <p> with each pointer </p>
-</div>-->
+    <div  class="background">
+      <img src="soccer_field.png" class="stretch" alt="" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="draggable row">
+          <img src="players_images/andre_toshiba.jpg" alt="André Toshiba" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">André Toshiba</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/cedric.jpg" alt="Sedric" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Sedric</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/claudio_vieira.jpg" alt="Umclautiti" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Umclautiti</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/daniel.jpg" alt="O Cantor" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">O Cantor</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/fernando_rodrigues.jpg" alt="Fernando" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Fernando</span>
+        </div>
 
-<div  class="background">
 
-  <img src="soccer_field.png" class="stretch" alt="" />
-</div>
-<div>
-  <img src="players_images/andre_toshiba.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/cedric.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/claudio_vieira.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/daniel.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/fernando_rodrigues.jpg" alt="" class="image--cover draggable"/>  
-  <img src="players_images/horta.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/hugo_abreu.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/tiago_fernandes.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/tiago_slip.jpg" alt="" class="image--cover draggable"/>
-  <img src="players_images/alex_cabeludo.jpg" alt="Alex com cabelo" class="image--cover draggable"/>
+      </div>
+      <div class="row">
+        <div class="draggable row">
+          <img src="players_images/horta.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Hortense</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/hugo_abreu.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Hugo</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/tiago_fernandes.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">O Fernandes</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/tiago_slip.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Marinho</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/andre_pp.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">André PP</span>
+        </div>
+        <div class="draggable row">
+          <img src="players_images/alex_cabeludo.jpg" alt="Alex com cabelo" class="image--cover col-11"/>
+          <span class="badge badge-pill badge-info col-11">Carecão</span>
+        </div>
+      </div>  
+    </div>
 
-</div>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+    <script>
+      $('.draggable').draggable();
+    </script> 
 
-<script src="jquery-1.7.2.min.js"></script>
-<script src="jquery-ui.min.js"></script>
-<script src="jquery.ui.touch-punch.min.js"></script>
-
-<script>
-
-  $('.draggable').draggable();
-
-</script>   
   </body>
+
 </html>
 
 
